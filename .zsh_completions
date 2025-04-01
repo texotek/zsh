@@ -7,11 +7,15 @@ zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 zstyle ':completion:*' rehash true
 zstyle ':completion:*' menu select
 
-
-zstyle :compinstall filename '/home/texotek/.zshrc'
-
-export FPATH="$HOME/.docker/completions:$FPATH"
+export FPATH="/usr/share/zsh/vendor-completions:$FPATH"
 
 zmodload zsh/complist
 autoload -Uz compinit && compinit
+
+# bindkey -M menuselect 'h' vi-backward-char
+# bindkey -M menuselect 'k' vi-up-line-or-history
+# bindkey -M menuselect 'j' vi-down-line-or-history
+# bindkey -M menuselect 'l' vi-forward-char
+#
+# bindkey -v '^?' backward-delete-char
 

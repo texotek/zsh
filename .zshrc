@@ -1,7 +1,6 @@
 export ZSH=$HOME/.config/zsh
 export PATH=$HOME/.local/bin:/usr/local/bin:/snap/bin:/opt/bin:$PATH
 
-export PATH=/home/texotek/.local/share/nvim/mason/bin:$PATH
 export JAVA_HOME=/usr/lib/jvm/jre
 
 ### ---- history config -------------------------------------
