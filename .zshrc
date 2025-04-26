@@ -25,7 +25,7 @@ bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 bindkey '^[[Z' reverse-menu-complete
 
-export PS1="%n@%m %1~ $ "
+export PS1="%n@%m %1~ :: "
 eval "$(fzf --zsh)"
 
 source $ZSH/.zsh_aliases

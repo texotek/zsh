@@ -27,3 +27,5 @@ alias open="xdg-open"
 alias fing="find . | grep "
 
 alias rm="trash"
+
+alias vi="nvim"
